@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
-  console.log('theme', theme)
+  console.log('theme', __APP_THEME__)
 
   return (
     <>
